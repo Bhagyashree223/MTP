@@ -18,3 +18,5 @@ HipRight
 KneeRight
 AnkleRight
 FootRight
+
+Url is http://nuicapture.com/support/how-to-export/
