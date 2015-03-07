@@ -20,3 +20,4 @@ AnkleRight
 FootRight
 
 Url is http://nuicapture.com/support/how-to-export/
+Useful url is https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx
