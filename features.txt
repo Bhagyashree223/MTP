@@ -1,0 +1,26 @@
+Upper Angles(Take xy, yz and zx):	
+          3)ShoulderCenter
+					5)ShoulderLeft
+					6)ElbowLeft
+					7)WristLeft
+					8)HandLeft 
+					
+					3)ShoulderCenter
+					9)ShoulderRight
+					10)ElbowRight
+					11)WristRight
+					12)HandRight
+					
+Lower Angles(Take xy, yz and zx):  	
+          1)HipCenter
+					13)HipLeft
+					14)KneeLeft
+					15)AnkleLeft
+					16)FootLeft
+					
+					1)HipCenter
+					17)HipRight
+					18)KneeRight
+					19)AnkleRight
+					20)FootRight
+					
