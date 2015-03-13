@@ -1,11 +1,12 @@
-%USB-VID_045E&PID_02BF-0000000000000000_13
-function BX=extract_skelton_data()
+function BX=right_hand_coordinates()
     flag=1;
-    for i=1:531
+    for i=1:678
        %filename='H:\Adavus and postures\another1\export\USB-VID_045E&PID_02BF-0000000000000000_'
        %filename='H:\Adavus and postures\good\export\export2\USB-VID_045E&PID_02BF-0000000000000000_'
        %filename='H:\Adavus and postures\abhishek1\export\USB-VID_045E&PID_02BF-0000000000000000_';
-       filename='H:\Adavus and postures\abhishek1\export\USB-VID_045E&PID_02BF-0000000000000000_'
+      
+       %filename='H:\Adavus and postures\abhishek1\export\USB-VID_045E&PID_02BF-0000000000000000_'
+       filename='E:\Natta_MatFiles\USB-VID_045E&PID_02BF-0000000000000000_'
        temp=num2str(i);
        filename=strcat(filename,temp);
        A=load(filename);
@@ -42,7 +43,7 @@ function BX=extract_skelton_data()
     f3=fopen(output_file3,'w');
     for k=i:531
 	
-        filename='H:\Adavus and postures\abhishek1\export\USB-VID_045E&PID_02BF-0000000000000000_'
+        filename='E:\Natta_MatFiles\USB-VID_045E&PID_02BF-0000000000000000_'
         temp=num2str(k);
         filename=strcat(filename,temp);
         A=load(filename);
@@ -53,8 +54,10 @@ function BX=extract_skelton_data()
             end    
         end
         
-		fprintf(f1,'%f %f %d',A.SkeletonFrame.Skeletons(l).Joints(12).Position.X,A.SkeletonFrame.Skeletons(l).Joints(12).Position.Y,k);
-        fprintf(f2,'%f %f %d',A.SkeletonFrame.Skeletons(l).Joints(12).Position.Y,A.SkeletonFrame.Skeletons(l).Joints(12).Position.Z,k);
-		fprintf(f3,'%f %f %d',A.SkeletonFrame.Skeletons(l).Joints(12).Position.Z,A.SkeletonFrame.Skeletons(l).Joints(12).Position.X,k);
-    end    
+		fprintf(f1,'%f %f %d\n',A.SkeletonFrame.Skeletons(l).Joints(12).Position.X,A.SkeletonFrame.Skeletons(l).Joints(12).Position.Y,k);
+       % A.SkeletonFrame.Skeletons(l).Joints(12).Position.X,A.SkeletonFrame.Skeletons(l).Joints(12).Position.Y,k;
+        fprintf(f2,'%f %f %d\n',A.SkeletonFrame.Skeletons(l).Joints(12).Position.Y,A.SkeletonFrame.Skeletons(l).Joints(12).Position.Z,k);
+		fprintf(f3,'%f %f %d\n',A.SkeletonFrame.Skeletons(l).Joints(12).Position.Z,A.SkeletonFrame.Skeletons(l).Joints(12).Position.X,k);
+    end  
+    %fclose(f1);fclose(f2);fclose(f3);
 end
