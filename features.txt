@@ -25,6 +25,6 @@ Lower Angles(Take xy, yz and zx):
 					20)FootRight
 					
 In natta adavu,
-1 is middle
-2 is left
-3 is right
+posture no. 1 is middle
+posture no. 2 is left
+posture no. 3 is right
