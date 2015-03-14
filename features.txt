@@ -24,3 +24,7 @@ Lower Angles(Take xy, yz and zx):
 					19)AnkleRight
 					20)FootRight
 					
+In natta adavu,
+1 is middle
+2 is left
+3 is right
