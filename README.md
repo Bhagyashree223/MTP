@@ -1,2 +1,2 @@
-# Master Thesis Project
+# Masters Thesis Project
 Tracking of Bharatnatyam postures
