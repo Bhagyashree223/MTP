@@ -1,0 +1,3 @@
+Posture1_natta: 1 to 94, 138 to 182, 222 to 272
+Posture2_natta: 95 to 137, 273 to 
+Posture3_natta: 183 to 221
