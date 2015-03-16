@@ -1,3 +1,4 @@
 Closest Key frame Approach:
+Classifier has selected frames i.e. bsplineder.txt, true labels and features.csv file as input.
 Natta accuracy=85.7885615251%
-Natta1 accuracy=69.1717791411%
+Natta1 accuracy=69.1717791411% (less due to tracking of just right hand) 
