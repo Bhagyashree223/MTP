@@ -4,7 +4,7 @@ import math
 def euclid_dist(a,b):
 	res=0.0
 	for i in range(1,49):
-		res+=(a[i]-b[i])*(a[i]-b[i])
+		res+=(float(a[i])-float(b[i]))*(float(a[i])-float(b[i]))
 	return math.sqrt(res)
 
 def trueLabel(frame):
@@ -38,6 +38,7 @@ for feature in open('features.csv'):
 	l=feature.split(',')
 	dist=[]
 	for frame in frames:
+                frame=frame.rstrip()
 		d=euclid_dist(l,a[frame])
 		dist.append((frame,d))
 	dist=sorted(dist,key=itemgetter(1))
