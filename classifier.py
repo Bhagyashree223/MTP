@@ -8,6 +8,7 @@ def euclid_dist(a,b):
 	return math.sqrt(res)
 
 def trueLabel(frame):
+	frame=int(frame)
 	for i in posture1:
 		if frame>= i[0] and frame<= i[1]:
 			return 1
