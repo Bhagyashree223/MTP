@@ -1,0 +1,3 @@
+Closest Key frame Approach:
+Natta accuracy=85.7885615251%
+Natta1 accuracy=69.1717791411%
