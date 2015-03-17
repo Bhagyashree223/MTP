@@ -2,3 +2,7 @@ Closest Key frame Approach:
 Classifier has selected frames i.e. bsplineder.txt, true labels and features.csv file as input.
 Natta accuracy=85.7885615251%
 Natta1 accuracy=69.1717791411% (less due to tracking of just right hand) 
+
+My task:
+Given an test adavu video, identify top k (say 20) frames and find its k*48 dimensional feature vector.
+Classify the video for an adavu using training data.
