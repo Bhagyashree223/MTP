@@ -29,6 +29,8 @@ posture3=[(183,221),(356,395),(482,503),(623,659)]
 a=dict()
 for feature in open('features.csv'):
 	l=feature.split(',')
+	for i in range(0,len(l)):
+		l[i]=l[i].rstrip()
 	a[l[0]]=l
 
 test_label=dict()
@@ -37,6 +39,8 @@ c=0
 c1=0
 for feature in open('features.csv'):
 	l=feature.split(',')
+	for i in range(0,len(l)):
+		l[i]=l[i].rstrip()
 	dist=[]
 	for frame in frames:
                 frame=frame.rstrip()
