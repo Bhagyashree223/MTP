@@ -6,3 +6,13 @@ Natta1 accuracy=69.1717791411% (less due to tracking of just right hand)
 My task:
 Given an test adavu video, identify top k (say 20) frames and find its k*48 dimensional feature vector.
 Classify the video for an adavu using training data.
+
+
+Results:
+1) Did for both left and right hands
+2) Did for xy, yz and zx projections of 3D hand coordinates
+3) Features are for xy, yz and zx projections.
+
+Accuracy after left as well as right hand tracking:
+Natta accuracy=%
+Natta1 accuracy=94.9386503067% (less due to tracking of just right hand)
