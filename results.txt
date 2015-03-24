@@ -16,3 +16,7 @@ Results:
 Accuracy after left as well as right hand tracking:
 Natta accuracy=90.294627383%
 Natta1 accuracy=85.1226993865% 
+
+[[275, 12, 21], [11, 120, 0], [11, 0, 127]]
+90.4679376083
+
