@@ -14,9 +14,9 @@ Results:
 3) Features are for xy, yz and zx projections.
 
 Accuracy after left as well as right hand tracking:
-Natta accuracy=90.294627383%
+Natta accuracy=90.4679376083%
 Natta1 accuracy=85.1226993865% 
 
-[[275, 12, 21], [11, 120, 0], [11, 0, 127]]
-90.4679376083
+Natta confusion matrix = [[275, 12, 21], [11, 120, 0], [11, 0, 127]]
+Natta1 confusion matrix = [[337, 20, 2], [35, 108, 0], [31, 9, 110]]
 
