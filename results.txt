@@ -25,3 +25,10 @@ Accuracy after adding new features:
 Natta accuracy=92.7209705373%
 Natta1 accuracy=88.8036809816% 
 
+Accuracy after doing rotation invariance:
+
+Natta accuracy=91.6811091854%
+Natta1 accuracy=86.0429447853% 
+
+
+
