@@ -20,3 +20,8 @@ Natta1 accuracy=85.1226993865%
 Natta confusion matrix = [[275, 12, 21], [11, 120, 0], [11, 0, 127]]
 Natta1 confusion matrix = [[337, 20, 2], [35, 108, 0], [31, 9, 110]]
 
+Accuracy after adding new features:
+
+Natta accuracy=92.7209705373%
+Natta1 accuracy=88.8036809816% 
+
