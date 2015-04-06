@@ -1,0 +1,7 @@
+Yeteshs-MacBook-Pro:Training yeteshchaudhary$ python training_data.py
+Yeteshs-MacBook-Pro:Training yeteshchaudhary$ python cluster_features.py 
+[9, 6, 0, 11, 2, 1, 17, 15, 5, 21, 16, 10, 3, 14, 20, 8, 12, 19, 22, 18, 24, 13, 23, 7, 4]
+Yeteshs-MacBook-Pro:Training yeteshchaudhary$ python training_data.py
+Yeteshs-MacBook-Pro:Training yeteshchaudhary$ cd ../Test
+Yeteshs-MacBook-Pro:Test yeteshchaudhary$ python cluster_features.py 
+[3, 12, 18, 1, 15, 13, 0, 21, 16, 14, 9, 2, 23, 10, 6, 24, 11, 20, 4, 8, 19, 22, 5, 7, 17]
